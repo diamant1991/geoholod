@@ -11,7 +11,6 @@
 	<meta name="keywords" content="" >
 	<meta name="description" content="">
 	<link rel="stylesheet" href="css/reset.css">
-	<link rel="stylesheet" href="css/jquery-ui.css">
 	<link rel="stylesheet" href="css/fonts.css">
 	<link rel="stylesheet" href="css/main.css">
 	<link rel="stylesheet" href="css/main.less">
@@ -21,8 +20,8 @@
 <body>
 <nav class="nav">
 	<div class="container clearfix">
-		<div class="menu-block internal-menu">
-			<ul class="parent-child internal-menu clearfix">
+		<div class="menu-block">
+			<ul class="parent-child clearfix">
 				<li><a href="#" class="active">О компании</a></li>
 				<li><a href="#">Каталог товаров</a></li>
 				<li>
@@ -76,10 +75,6 @@
 				<li><a href="#"> Контакты</a></li>
 			</ul>
 		</div>
-		<div class="internal-search">
-			<input type="text" placeholder="Поиск по каталогу товаров">
-			<input type="submit" value="">
-		</div>
 	</div>
 </nav><!-- navigation -->
 
@@ -87,7 +82,7 @@
 	<div class="container">
 		<div class="logo">
 			<a href="#">
-				<img src="images/other-logo.png" alt="">
+				<img src="images/logo.png" alt="">
 			</a>
 		</div>
 		<div class="contacts clearfix">
@@ -225,221 +220,67 @@
 						</ul>
 					</li>
 				</ul>
-				<div class="filter">
-					<div class="filter-block">
-						<p>Розничная цена</p>
-						<table class="range-table">
-							<tr>
-								<td>
-									от
-								</td>
-								<td style="padding-right:15px">
-									<input type="text" id="min-price">
-								</td>
-								<td>
-									до
-								</td>
-								<td>
-									<input type="text" id="max-price">
-								</td>
-							</tr>
-						</table>
-						<div id="price"></div>
-					</div>
-					<div class="filter-block">
-						<p>Рекомендуем</p>
- 						<input type="checkbox" id="check1"><label for="check1">Геохолод рекомендует</label>
-					</div>
-					<div class="filter-block">
-						<p>Тип</p>
-						<input type="radio" id="check2" name="type"><label for="check2">Инвертор</label>
-						<input type="radio" id="check3" name="type"><label for="check3">Не инвертор</label>
-					</div>
-					<div class="filter-block">
-						<p>Примерная площадь <br>помещения, м2</p>
-						<ul class="square-list clearfix">
-							<li>
-								<div>
-									<input type="checkbox" id="check4"><label for="check4">0-20 м2</label>
-								</div>
-								<div>
-									<input type="checkbox" id="check5"><label for="check5">19-25 м2</label>
-								</div>
-								<div>
-									<input type="checkbox" id="check6"><label for="check6">24-33 м2</label>
-								</div>
-								<div>
-									<input type="checkbox" id="check7"><label for="check7">32-50 м2</label>
-								</div>
-							</li>
-							<li>
-								<div>
-									<input type="checkbox" id="check8"><label for="check8">49-70 м2</label>
-								</div>
-								<div>
-									<input type="checkbox" id="check9"><label for="check9">69-80 м2</label>
-								</div>
-								<div>
-									<input type="checkbox" id="check10"><label for="check10">79-90 м2</label>
-								</div>
-							</li>
-						</ul>
-					</div>
-					<div class="filter-block">
-						<p>Основные режимы</p>
-						<div>
-							<input type="checkbox" id="check11"><label for="check11">Охлаждение\обогрев</label>
-						</div>
-						<div>
-							<input type="checkbox" id="check12"><label for="check12">Охлаждение</label>
-						</div>
-					</div>
-					<div class="filter-block">
-						<p>Подмес свежего воздуха</p>
-						<input type="checkbox" id="check13"><label for="check13">Есть</label>
-					</div>
-					<div class="filter-block">
-						<p>Производитель</p>
-						<ul class="square-list clearfix">
-							<li>
-								<div>
-									<input type="checkbox" id="check14"><label for="check14">Ballu</label>
-								</div>
-								<div>
-									<input type="checkbox" id="check15"><label for="check15">Daikin</label>
-								</div>
-								<div>
-									<input type="checkbox" id="check16"><label for="check16">Dekker</label>
-								</div>
-								<div>
-									<input type="checkbox" id="check17"><label for="check17">Electrolux</label>
-								</div>
-								<div>
-									<input type="checkbox" id="check18"><label for="check18">Fujitsu</label>
-								</div>
-								<div>
-									<input type="checkbox" id="check19"><label for="check19">Hisense</label>
-								</div>
-								<div>
-									<input type="checkbox" id="check20"><label for="check20">Hitachi</label>
-								</div>
-								<div>
-									<input type="checkbox" id="check21"><label for="check21">Kentatsu</label>
-								</div>
-								<div>
-									<input type="checkbox" id="check22"><label for="check22">Lessar</label>
-								</div>
-								<div>
-									<input type="checkbox" id="check23"><label for="check23">LG</label>
-								</div>
-								<div>
-									<input type="checkbox" id="check24"><label for="check24">Midea</label>
-								</div>
-							</li>
-							<li>
-								<div>
-									<input type="checkbox" id="check25"><label for="check25" class="two-span"><span>Mitsubishi <br><b>Electic</b></span></label>
-								</div>
-								<div>
-									<input type="checkbox" id="check26"><label for="check26" class="two-span"><span>Mitsubishi <br><b>Heavy</b></span></label>
-								</div>
-								<div>
-									<input type="checkbox" id="check27"><label for="check27">Neoclima</label>
-								</div>
-								<div>
-									<input type="checkbox" id="check28"><label for="check28">Panasonic</label>
-								</div>
-								<div>
-									<input type="checkbox" id="check29"><label for="check29">RIX</label>
-								</div>
-								<div>
-									<input type="checkbox" id="check30"><label for="check30">Roda</label>
-								</div>
-								<div>
-									<input type="checkbox" id="check31"><label for="check31">Royal Clima</label>
-								</div>
-								<div>
-									<input type="checkbox" id="check32"><label for="check32">Sakata</label>
-								</div>
-								<div>
-									<input type="checkbox" id="check33"><label for="check33">Samsung</label>
-								</div>
-								<div>
-									<input type="checkbox" id="check34"><label for="check34">Toshiba</label>
-								</div>
-								<div>
-									<input type="checkbox" id="check35"><label for="check35">Tosot</label>
-								</div>
-							</li>
-						</ul>
-					</div>
-					<a href="#" class="show-tovar">Показать товары</a>
-				</div>
 			</aside><!-- aside menu -->
+
 			<div class="content">
-				<div class="pagination">
-					<ul class="clearfix">
-						<li><a href="#" class="active">1</a></li>
-						<li><a href="#">2</a></li>
-						<li><a href="#">3</a></li>
-						<li><a href="#">4</a></li>
-						<li><a href="#">5</a></li>
-						<li><a href="#">6</a></li>
-						<li><a href="#">7</a></li>
-						<li><a href="#">8</a></li>
-					</ul>
+				<div class="internal-search big-search">
+					<input type="text" placeholder="Поиск по каталогу товаров">
+					<input type="submit" value="">
 				</div>
-				<h3>Вопрос-Ответ</h3>
-				<div class="breadcrumbs">
+				<h4>Внутренняя страница</h4>
+				<div class="main-breadcrumbs">
 					<ul class="clearfix">
 						<li>
-							Главная<span>-</span>
+							<a href="#">Главная</a><span>-</span>
 						</li>
-						<li>Вопрос-ответ</li>
+						<li>
+							<a href="#">Каталог товаров</a><span>-</span>
+						</li>
+						<li>Холодильное оборудование</li>
 					</ul>
 				</div>
-				<div class="comment-wrap">
-					<div class="name">Ольга Иванова</div>
-					<div class="date">28.04.15</div>
-					<div class="ques-text">Скажите пожалуйста, если заказать товар более чем на миллион рублей, то будут ли какие нибудь скидки или бонусы</div>
-					<div class="answer-wrap">
-						<div class="name">Администратор сайта</div>
-						<div class="date">28.04.15</div>
-						<div class="ques-text">Доброго времени суток Ольга, если заказать товар более чем на миллион рублей, то будут скидки или бонусы для Вас</div>
-					</div>
+				<div class="text-wrap">
+					<h5>Текст на сайте</h5>
+					<p>Электростатический фильтр - Высокоэффективный фильтр с низким воздушным сопротивлением легко устраняет из воздушного потока пыль и частицы дым <br>
+					Функция осушения - Эта функция снизит уровень влажности в помещении даже при выключенном режиме охлажден <br>
+					Функция самодиагностики - Система управления кондиционера выводит на экран коды типовых ошибок и неисправностей, что облегчает и ускоряет обслуживание и устранение нештатных ситуаций
+					Таймер на включение и выключение 24 - Легкая установка времени начала работы и отключения кондиционера</p>
+					<p>
+					Электростатический фильтр - Высокоэффективный фильтр с низким воздушным сопротивлением легко устраняет из воздушного потока пыль и частицы дым <br>
+					Функция осушения - Эта функция снизит уровень влажности в помещении даже при выключенном режиме охлажден <br>
+					Функция самодиагностики - Система управления кондиционера выводит на экран коды типовых ошибок и неисправностей.
+					Функция осушения - Эта функция снизит уровень влажности в помещении даже при выключенном режиме охлажден <br>
+					Функция самодиагностики - Система управления кондиционера выводит на экран коды типовых ошибок и неисправностей, что облегчает и ускоряет обслуживание и устранение нештатных ситуаций
+					Таймер на включение и выключение 24 - Легкая установка времени начала работы и отключения кондиционера
+ 
+					</p>
 				</div>
-				<div class="comment-wrap">
-					<div class="name">Ольга Иванова</div>
-					<div class="date">28.04.15</div>
-					<div class="ques-text">Скажите пожалуйста, если заказать товар более чем на миллион рублей, то будут ли какие нибудь скидки или бонусы</div>
-					<div class="answer-wrap">
-						<div class="name">Администратор сайта</div>
-						<div class="date">28.04.15</div>
-						<div class="ques-text">Доброго времени суток Ольга, если заказать товар более чем на миллион рублей, то будут скидки или бонусы для Вас</div>
-					</div>
+				<div class="pictures">
+					<h5>Изображения</h5>
+					<img src="images/img.jpg" alt="">
+					<img src="images/img.jpg" alt="">
+					<img src="images/img.jpg" alt="">
 				</div>
-				<div class="comment-wrap">
-					<div class="name">Ольга Иванова</div>
-					<div class="date">28.04.15</div>
-					<div class="ques-text">Скажите пожалуйста, если заказать товар более чем на миллион рублей, то будут ли какие нибудь скидки или бонусы</div>
-					<div class="answer-wrap">
-						<div class="name">Администратор сайта</div>
+				<div class="commentary">
+					<h5>Комментарии</h5>
+					<div class="comment-wrap">
+						<div class="name">Ольга Иванова</div>
 						<div class="date">28.04.15</div>
-						<div class="ques-text">Доброго времени суток Ольга, если заказать товар более чем на миллион рублей, то будут скидки или бонусы для Вас</div>
+						<div class="ques-text">Спасибо Вашей компании за сотрудничество в области продажи кондиционеров. Постоянные закупки делают наш бизнес безперебойным и выгодным. Всегда вовремя и иногда у них бывают хорошии акции и скидки для постоянных покупателей.</div>
 					</div>
-				</div>
-				<div class="comment-wrap">
-					<div class="name">Ольга Иванова</div>
-					<div class="date">28.04.15</div>
-					<div class="ques-text">Скажите пожалуйста, если заказать товар более чем на миллион рублей, то будут ли какие нибудь скидки или бонусы</div>
-					<div class="answer-wrap">
-						<div class="name">Администратор сайта</div>
+					<div class="comment-wrap">
+						<div class="name">Ольга Иванова</div>
 						<div class="date">28.04.15</div>
-						<div class="ques-text">Доброго времени суток Ольга, если заказать товар более чем на миллион рублей, то будут скидки или бонусы для Вас</div>
+						<div class="ques-text">Спасибо Вашей компании за сотрудничество в области продажи кондиционеров. Постоянные закупки делают наш бизнес безперебойным и выгодным. Всегда вовремя и иногда у них бывают хорошии акции и скидки для постоянных покупателей.</div>
+					</div>
+					<div class="comment-wrap">
+						<div class="name">Ольга Иванова</div>
+						<div class="date">28.04.15</div>
+						<div class="ques-text">Спасибо Вашей компании за сотрудничество в области продажи кондиционеров. Постоянные закупки делают наш бизнес безперебойным и выгодным. Всегда вовремя и иногда у них бывают хорошии акции и скидки для постоянных покупателей.</div>
 					</div>
 				</div>
 				<div class="form-question">
-					<h3>Задать вопрос</h3>
+					<h5>Оставить комментарий</h5>
 					<form>
 						<fieldset>
 							<div class="left-block">
@@ -454,8 +295,59 @@
 						<div class="clear"></div>
 					</form>
 				</div>
-			</div><!-- content -->
-		</section>
+				<div class="table-container">
+					<h5>Таблица</h5>
+					<table>
+						<thead>
+							<tr>
+								<td>Фамилия</td>
+								<td>Имя</td>
+								<td>Отчество</td>
+								<td>Телефон</td>
+								<td>Адрес</td>
+								<td>Семейное положение</td>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>Фамилия</td>
+								<td>Имя</td>
+								<td>Отчество</td>
+								<td>Телефон</td>
+								<td>Адрес</td>
+								<td>Семейное положение</td>
+							</tr>
+							<tr>
+								<td>Фамилия</td>
+								<td>Имя</td>
+								<td>Отчество</td>
+								<td>Телефон</td>
+								<td>Адрес</td>
+								<td>Семейное положение</td>
+							</tr>
+							<tr>
+								<td>Фамилия</td>
+								<td>Имя</td>
+								<td>Отчество</td>
+								<td>Телефон</td>
+								<td>Адрес</td>
+								<td>Семейное положение</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+				<div class="list-wrap">
+					<h5>Список</h5>
+					<ul>
+						<li>Список сайта</li>
+						<li>Список сайта</li>
+						<li>Список сайта</li>
+						<li>Список сайта</li>
+						<li>Список сайта</li>
+					</ul>
+				</div>
+			</div><!-- content-->
+		</section><!-- section -->
 	</div>
 </div><!-- wrapper -->
 
@@ -500,7 +392,7 @@
 		<div class="container clearfix">
 			<div class="logo-foot">
 				<a href="#">
-					<img src="images/other-foot-logo.png" alt="">
+					<img src="images/logo-foot.png" alt="">
 				</a>
 			</div>
 			<ul class="menu-foot clearfix">
@@ -529,25 +421,9 @@
 
 
 
-<script src="js/jquery.js"></script>
-<script src="js/jquery-ui.min.js"></script>
-<script>
-	jQuery("#price").slider({
-	min: 1,
-	max: 10000,
-	values: [1,10000],
-	range: true,
-	stop: function(event, ui) {
-		jQuery("#min-price").val(jQuery("#price").slider("values",0));
-		jQuery("#max-price").val(jQuery("#price").slider("values",1));
-    },
-    slide: function(event, ui){
-		jQuery("#min-price").val(jQuery("#price").slider("values",0));
-		jQuery("#max-price").val(jQuery("#price").slider("values",1));
-    }
-});
 
-</script>
+
+<script src="js/jquery.js"></script>
 <script src="js/script.js"></script>
 </body>
 </html>
