@@ -355,7 +355,7 @@ body{
 .aside-child{
 	position: absolute;
 	width: 240px;
-	z-index: 11;
+	z-index: 100;
 	padding-top: 5px;
 	background-color: #f7f7f7;
 	-webkit-box-shadow: -1px 5px 18px 0px rgba(0, 0, 0, 0.26);
@@ -1195,4 +1195,183 @@ input[type="checkbox"]:checked + label:before {
 			top: -7px;
 		}
 
+}
+
+.show-this{
+	display: block;
+	float: right;
+	width: 210px;
+	height: 47px;
+	text-align: center;
+	.days;
+	font-size: 15px;
+	color: #fbf6f0;
+	background: @blue;
+	margin-top: 20px;
+	line-height: 1.1;
+	padding-top: 5px;
+	-webkit-box-shadow: -1px 5px 9px 0px rgba(0, 0, 0, 0.26);
+	-moz-box-shadow:    -1px 5px 9px 0px rgba(0, 0, 0, 0.26);
+	box-shadow:         -1px 5px 9px 0px rgba(0, 0, 0, 0.26);
+
+}
+
+.bot-pag{
+	position: relative !important;
+	top: 0 !important;
+	margin-top: 20px;
+}
+
+.item-detail{
+	margin-top: 15px;
+}
+.item-photo{
+	float: left;
+	width: 250px;
+}
+.item-descr{
+	float: right;
+	width: 465px;
+	background-color: #fff;
+	padding: 15px;
+
+		p{
+			margin-bottom: 20px;
+		}
+		h5{
+			margin-bottom: 10px;
+		}
+}
+
+.specifications{
+	margin-top: 25px;
+}
+
+.spec-block{
+	background-color: #fff;
+	margin-top: 10px;
+	padding: 20px 25px 20px 10px;
+
+		li{
+			position: relative;
+			font-size: 13px;
+			background: url(../images/icons/dotted.png)left bottom repeat-x;
+			margin-bottom: 5px;
+			color: #000;
+		}
+		.left{
+		  background: #fff;
+		  position: relative;
+		  top: 2px;
+		  padding-right: 3px;
+		}
+		.right{
+		  padding: 0 5px;
+		  position: absolute;
+		  right: 0;
+		  background: #fff;
+		  top: 2px;
+		  padding-left: 3px;
+		}
+}
+
+.dop-list{
+	margin-top: 15px;
+
+		li{
+			&:first-child{
+				background: none;
+				font-size: 15px;
+				margin-bottom: 15px;
+			}
+			&:nth-child(3){
+				width: 80%;
+			}
+			&:nth-child(4){
+				width: 75%;
+			}
+		}
+}
+
+.buy-container{
+	margin-top: 15px;
+
+		.price,
+		.amount,
+		.add-basket{
+			float: right;
+		}
+		.add-basket{
+			text-align: center;
+			font-size: 15px;
+			.days;
+			color: #fbf6f0;
+			background: @blue;
+			display: block;
+			width: 180px;
+			height: 47px;
+			padding-top: 15px;
+			-webkit-box-shadow: -1px 5px 9px 0px rgba(0, 0, 0, 0.26);
+			-moz-box-shadow:    -1px 5px 9px 0px rgba(0, 0, 0, 0.26);
+			box-shadow:         -1px 5px 9px 0px rgba(0, 0, 0, 0.26);
+		}
+		.amount{
+			position: relative;
+			margin-right: 10px;
+			width: 55px;
+			height: 47px;
+
+				input{
+					width: 100%;
+					height: 47px;
+					outline: 0;
+					border:1px solid rgba(0, 0, 0, 0.1);
+					background-color: #fff;
+					font-size: 15px;
+					padding-left: 10px;
+				}
+				.amount-up,
+				.amount-down{
+					display: block;
+					width: 20px;
+					height: 22px;
+					padding-top: 3px;
+					text-align: center;
+					.days;
+					color: #fbf6f0;
+					font-size: 15px;
+					position: absolute;
+					background: @blue;
+					-webkit-box-shadow: -1px 5px 9px 0px rgba(0, 0, 0, 0.26);
+					-moz-box-shadow:    -1px 5px 9px 0px rgba(0, 0, 0, 0.26);
+					box-shadow:         -1px 5px 9px 0px rgba(0, 0, 0, 0.26);
+				}
+				.amount-up{
+					right: 0;
+					top: 0;
+				}
+				.amount-down{
+					bottom: 0;
+					right: 0;
+				}
+		}
+		.price{
+			margin-right: 28px;
+			color: @orange;
+			.days;
+			font-size: 15px;
+			padding-top: 16px;
+		}
+}
+
+.other-tovar{
+	margin-top: 40px;
+
+		.table-item{
+			margin-top: 10px;
+		}
+		.tovar-link{
+			color: @blue;
+			border-bottom: 1px solid #acc4e3;
+		}
 }

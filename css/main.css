@@ -323,7 +323,7 @@ body {
 .aside-child {
   position: absolute;
   width: 240px;
-  z-index: 11;
+  z-index: 100;
   padding-top: 5px;
   background-color: #f7f7f7;
   -webkit-box-shadow: -1px 5px 18px 0px rgba(0, 0, 0, 0.26);
@@ -1105,4 +1105,166 @@ input[type="checkbox"]:checked + label:before {
   font-size: 10px;
   position: relative;
   top: -7px;
+}
+.show-this {
+  display: block;
+  float: right;
+  width: 210px;
+  height: 47px;
+  text-align: center;
+  font-family: 'Days';
+  font-size: 15px;
+  color: #fbf6f0;
+  background: #327dc4;
+  margin-top: 20px;
+  line-height: 1.1;
+  padding-top: 5px;
+  -webkit-box-shadow: -1px 5px 9px 0px rgba(0, 0, 0, 0.26);
+  -moz-box-shadow: -1px 5px 9px 0px rgba(0, 0, 0, 0.26);
+  box-shadow: -1px 5px 9px 0px rgba(0, 0, 0, 0.26);
+}
+.bot-pag {
+  position: relative !important;
+  top: 0 !important;
+  margin-top: 20px;
+}
+.item-detail {
+  margin-top: 15px;
+}
+.item-photo {
+  float: left;
+  width: 250px;
+}
+.item-descr {
+  float: right;
+  width: 465px;
+  background-color: white;
+  padding: 15px;
+}
+.item-descr p {
+  margin-bottom: 20px;
+}
+.item-descr h5 {
+  margin-bottom: 10px;
+}
+.specifications {
+  margin-top: 25px;
+}
+.spec-block {
+  background-color: white;
+  margin-top: 10px;
+  padding: 20px 25px 20px 10px;
+}
+.spec-block li {
+  position: relative;
+  font-size: 13px;
+  background: url(../images/icons/dotted.png) left bottom repeat-x;
+  margin-bottom: 5px;
+  color: black;
+}
+.spec-block .left {
+  background: white;
+  position: relative;
+  top: 2px;
+  padding-right: 3px;
+}
+.spec-block .right {
+  padding: 0 5px;
+  position: absolute;
+  right: 0;
+  background: white;
+  top: 2px;
+  padding-left: 3px;
+}
+.dop-list {
+  margin-top: 15px;
+}
+.dop-list li:first-child {
+  background: none;
+  font-size: 15px;
+  margin-bottom: 15px;
+}
+.dop-list li:nth-child(3) {
+  width: 80%;
+}
+.dop-list li:nth-child(4) {
+  width: 75%;
+}
+.buy-container {
+  margin-top: 15px;
+}
+.buy-container .price,
+.buy-container .amount,
+.buy-container .add-basket {
+  float: right;
+}
+.buy-container .add-basket {
+  text-align: center;
+  font-size: 15px;
+  font-family: 'Days';
+  color: #fbf6f0;
+  background: #327dc4;
+  display: block;
+  width: 180px;
+  height: 47px;
+  padding-top: 15px;
+  -webkit-box-shadow: -1px 5px 9px 0px rgba(0, 0, 0, 0.26);
+  -moz-box-shadow: -1px 5px 9px 0px rgba(0, 0, 0, 0.26);
+  box-shadow: -1px 5px 9px 0px rgba(0, 0, 0, 0.26);
+}
+.buy-container .amount {
+  position: relative;
+  margin-right: 10px;
+  width: 55px;
+  height: 47px;
+}
+.buy-container .amount input {
+  width: 100%;
+  height: 47px;
+  outline: 0;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  background-color: white;
+  font-size: 15px;
+  padding-left: 10px;
+}
+.buy-container .amount .amount-up,
+.buy-container .amount .amount-down {
+  display: block;
+  width: 20px;
+  height: 22px;
+  padding-top: 3px;
+  text-align: center;
+  font-family: 'Days';
+  color: #fbf6f0;
+  font-size: 15px;
+  position: absolute;
+  background: #327dc4;
+  -webkit-box-shadow: -1px 5px 9px 0px rgba(0, 0, 0, 0.26);
+  -moz-box-shadow: -1px 5px 9px 0px rgba(0, 0, 0, 0.26);
+  box-shadow: -1px 5px 9px 0px rgba(0, 0, 0, 0.26);
+}
+.buy-container .amount .amount-up {
+  right: 0;
+  top: 0;
+}
+.buy-container .amount .amount-down {
+  bottom: 0;
+  right: 0;
+}
+.buy-container .price {
+  margin-right: 28px;
+  color: #ff9d28;
+  font-family: 'Days';
+  font-size: 15px;
+  padding-top: 16px;
+}
+.other-tovar {
+  margin-top: 40px;
+}
+.other-tovar .table-item {
+  margin-top: 10px;
+}
+.other-tovar .tovar-link {
+  color: #327dc4;
+  border-bottom: 1px solid #acc4e3;
 }
