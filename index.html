@@ -97,7 +97,7 @@
 					</p>
 				</div>
 				<div class="right-block">
-					<a href="#" class="get-call">Заказать звонок</a>
+					<a class="get-call">Заказать звонок</a>
 				</div>
 			</div>
 			<div class="basket clearfix">
@@ -116,7 +116,7 @@
 
 		<section class="section clearfix">
 			<aside class="aside-menu">
-				<div class="title">
+				<div class="title toggle-btn">
 					<h3>Каталог товаров</h3>
 				</div>
 				<ul class="aside-parent">
@@ -436,6 +436,29 @@
 	</div>
 </footer><!-- footer -->
 
+<div class="form-mask"></div>
+<div class="modal" id="get-call">
+	<a class="closed-btn">
+		<img src="images/icons/closed.png" alt="">
+	</a>
+	<header>Заказать обратный звонок</header>
+	<form>
+		<fieldset>
+			<div class="input-block">
+				<input type="text" placeholder="Как Вас зовут?">
+			</div>
+			<div class="input-block">
+				<input type="text" placeholder="+7 (***) ***-**-**" class="telephone-input">
+			</div>
+			<div class="input-block">
+				<input type="submit" value="Отправить">
+			</div>
+			<div class="text">
+				Отправьте заявку на звонок и наши специалисты свяжутся с Вами в <br> кротчайшее вемя
+			</div>
+		</fieldset>
+	</form>
+</div>
 
 
 <script src="js/jquery.js"></script>
@@ -447,13 +470,13 @@
            pauseTime: 8000,
            animSpeed: 350,
            pauseOnHover: false,
-           //manualAdvance:true,
            prevText: "",
            nextText: "",    
             })
         
     }); 
 </script>
+<script src="js/maskeinput.js"></script>
 <script src="js/script.js"></script>
 </body>
 </html>
