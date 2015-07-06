@@ -1609,3 +1609,64 @@ input[type="checkbox"]:checked + label:before {
 #get-call{
 	padding-top: 30px;
 }
+
+.basket-table{
+	width: 100%;
+
+		td{
+			vertical-align: top;
+
+				&:last-child .white-menu{
+					border-right: 0 !important;
+				}
+
+				&:first-child .white-cell{
+					width: 185px;
+				}
+				&:nth-child(2) .white-cell{
+					width: 160px;
+				}
+				&:nth-child(3) .white-cell{
+					width: 100px;
+				}
+				&:nth-child(4) .white-cell{
+					width: 135px;
+				}
+				&:nth-child(5) .white-cell{
+					width: 110px;
+				}
+				&:nth-child(6) .white-cell{
+					width: 50px;
+				}
+		}
+		.amount{
+			margin: auto;
+		}
+		thead{
+			td{
+				padding-bottom: 10px;
+				color: #2f2f2f;
+  				font-weight: bold;
+  				font-size: 13px;
+  				text-align: center;
+			}
+		}
+		tbody{
+			color: #2f2f2f;
+			font-size: 13px;
+			line-height: 18px;
+		}
+
+}
+.white-menu{
+	background: white;
+	margin-bottom: 15px;
+	text-align: center;
+	box-shadow: 0px 5px 4px 0px rgba(0, 0, 0, .15);
+}
+
+.white-cell{
+	display: table-cell;
+	vertical-align: middle;
+	height: 120px;
+}
