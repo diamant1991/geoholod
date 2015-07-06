@@ -222,6 +222,12 @@ body {
   -webkit-box-shadow: -1px 5px 9px 0px rgba(0, 0, 0, 0.26);
   -moz-box-shadow: -1px 5px 9px 0px rgba(0, 0, 0, 0.26);
   box-shadow: -1px 5px 9px 0px rgba(0, 0, 0, 0.26);
+  -webkit-transition: 0.2s all linear;
+  -moz-transition: 0.2s all linear;
+  transition: 0.2s all linear;
+}
+.get-call:hover {
+  background-color: #327dc4;
 }
 .basket {
   float: left;
@@ -495,6 +501,13 @@ body {
   -webkit-box-shadow: -1px 5px 9px 0px rgba(0, 0, 0, 0.12);
   -moz-box-shadow: -1px 5px 9px 0px rgba(0, 0, 0, 0.12);
   box-shadow: -1px 5px 9px 0px rgba(0, 0, 0, 0.12);
+  -webkit-transition: 0.2s all linear;
+  -moz-transition: 0.2s all linear;
+  transition: 0.2s all linear;
+}
+.all-tovar:hover,
+.all-news:hover {
+  background: #ff9d28;
 }
 .news {
   background-color: #fbfbfb;
@@ -787,6 +800,12 @@ input[type="checkbox"]:checked + label:before {
   -moz-box-shadow: -1px 5px 9px 0px rgba(0, 0, 0, 0.26);
   box-shadow: -1px 5px 9px 0px rgba(0, 0, 0, 0.26);
   margin-top: 25px;
+  -webkit-transition: 0.2s all linear;
+  -moz-transition: 0.2s all linear;
+  transition: 0.2s all linear;
+}
+.show-tovar:hover {
+  background: #327dc4;
 }
 .content {
   float: right;
@@ -917,6 +936,12 @@ input[type="checkbox"]:checked + label:before {
   -webkit-box-shadow: -1px 5px 9px 0px rgba(0, 0, 0, 0.26);
   -moz-box-shadow: -1px 5px 9px 0px rgba(0, 0, 0, 0.26);
   box-shadow: -1px 5px 9px 0px rgba(0, 0, 0, 0.26);
+  -webkit-transition: 0.2s all linear;
+  -moz-transition: 0.2s all linear;
+  transition: 0.2s all linear;
+}
+.form-question input[type="submit"]:hover {
+  background: #ff9d28;
 }
 .internal-features {
   box-shadow: none;
@@ -1088,6 +1113,12 @@ input[type="checkbox"]:checked + label:before {
   -webkit-box-shadow: -1px 5px 9px 0px rgba(0, 0, 0, 0.26);
   -moz-box-shadow: -1px 5px 9px 0px rgba(0, 0, 0, 0.26);
   box-shadow: -1px 5px 9px 0px rgba(0, 0, 0, 0.26);
+  -webkit-transition: 0.2s all linear;
+  -moz-transition: 0.2s all linear;
+  transition: 0.2s all linear;
+}
+.table-item .add-basket:hover {
+  background-color: #327dc4;
 }
 .table-item .tr {
   border-bottom: 1px solid #cecece;
@@ -1123,6 +1154,12 @@ input[type="checkbox"]:checked + label:before {
   -webkit-box-shadow: -1px 5px 9px 0px rgba(0, 0, 0, 0.26);
   -moz-box-shadow: -1px 5px 9px 0px rgba(0, 0, 0, 0.26);
   box-shadow: -1px 5px 9px 0px rgba(0, 0, 0, 0.26);
+  -webkit-transition: 0.2s all linear;
+  -moz-transition: 0.2s all linear;
+  transition: 0.2s all linear;
+}
+.show-this:hover {
+  background: #ff9d28;
 }
 .bot-pag {
   position: relative !important;
@@ -1212,6 +1249,12 @@ input[type="checkbox"]:checked + label:before {
   -webkit-box-shadow: -1px 5px 9px 0px rgba(0, 0, 0, 0.26);
   -moz-box-shadow: -1px 5px 9px 0px rgba(0, 0, 0, 0.26);
   box-shadow: -1px 5px 9px 0px rgba(0, 0, 0, 0.26);
+  -webkit-transition: 0.2s all linear;
+  -moz-transition: 0.2s all linear;
+  transition: 0.2s all linear;
+}
+.buy-container .add-basket:hover {
+  background: #ff9d28;
 }
 .buy-container .price {
   margin-right: 28px;
@@ -1253,6 +1296,13 @@ input[type="checkbox"]:checked + label:before {
   -webkit-box-shadow: -1px 5px 9px 0px rgba(0, 0, 0, 0.26);
   -moz-box-shadow: -1px 5px 9px 0px rgba(0, 0, 0, 0.26);
   box-shadow: -1px 5px 9px 0px rgba(0, 0, 0, 0.26);
+  -webkit-transition: 0.2s all linear;
+  -moz-transition: 0.2s all linear;
+  transition: 0.2s all linear;
+}
+.amount .amount-up:hover,
+.amount .amount-down:hover {
+  background: #ff9d28;
 }
 .amount .amount-up {
   right: 0;
@@ -1431,6 +1481,12 @@ input[type="checkbox"]:checked + label:before {
   -webkit-box-shadow: -2px 4px 9px 0px rgba(0, 0, 0, 0.26);
   -moz-box-shadow: -2px 4px 9px 0px rgba(0, 0, 0, 0.26);
   box-shadow: -2px 4px 9px 0px rgba(0, 0, 0, 0.26);
+  -webkit-transition: 0.2s all linear;
+  -moz-transition: 0.2s all linear;
+  transition: 0.2s all linear;
+}
+.modal input[type="submit"]:hover {
+  background: #ff9d28;
 }
 .modal .text {
   text-align: center;

@@ -105,7 +105,13 @@
 		background-color: #327dc4;
 		padding-top: 15px;
 		margin-top: 9px;
+		-webkit-transition: 0.2s all linear;
+			-moz-transition: 0.2s all linear;
+			transition:      0.2s all linear;
 	}
+		.caption-link:hover{
+			background-color: #ff9d28;
+		}
 
 
 

@@ -70,3 +70,8 @@ table {
 	height: 0;
 	clear: both;
 }
+input[type="submit"],
+input[type="button"],
+button{
+	-webkit-appearance: none;
+}
