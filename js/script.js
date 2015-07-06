@@ -21,7 +21,6 @@ $( document ).ready(function() {
     	$('#get-call').fadeIn(300);
     })
 
-
     $('.form-mask,.closed-btn').click(function(){
   	 $('.modal,.form-mask').fadeOut(300);
   })
