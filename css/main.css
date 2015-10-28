@@ -1556,3 +1556,79 @@ input[type="checkbox"]:checked + label:before {
   vertical-align: middle;
   height: 120px;
 }
+.categories {
+  margin-left: -20px;
+  margin-top: 25px;
+}
+.categories-block {
+  float: left;
+  width: 230px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 25px;
+  background: white;
+  -webkit-box-shadow: -1px 5px 10px 0px rgba(0, 0, 0, 0.16);
+  -moz-box-shadow: -1px 5px 10px 0px rgba(0, 0, 0, 0.16);
+  box-shadow: -1px 5px 10px 0px rgba(0, 0, 0, 0.16);
+}
+.categories-block .title {
+  font-family: 'Days';
+}
+.categories-block .title a {
+  color: #327dc4;
+  border-bottom: 1px solid #78a3d4;
+}
+.categories-block .desc {
+  width: 100%;
+  height: 140px;
+  display: table;
+}
+.categories-block .desc p {
+  font-family: Arial, sans-serif;
+  font-size: 13px;
+  margin-bottom: 10px;
+  line-height: 1.1;
+}
+.categories-block .desc .price {
+  font-size: 16px;
+  color: #327dc4;
+}
+.categories-block .block-vertical {
+  display: table-cell;
+  vertical-align: middle;
+}
+.categories-block .more {
+  display: block;
+  width: 180px;
+  height: 45px;
+  line-height: 45px;
+  margin: auto;
+  color: white;
+  background: #ff9d28;
+  -webkit-transition: 0.2s all linear;
+  -moz-transition: 0.2s all linear;
+  transition: 0.2s all linear;
+  -webkit-box-shadow: -1px 5px 9px 0px rgba(0, 0, 0, 0.26);
+  -moz-box-shadow: -1px 5px 9px 0px rgba(0, 0, 0, 0.26);
+  box-shadow: -1px 5px 9px 0px rgba(0, 0, 0, 0.26);
+  font-size: 15px;
+  font-family: 'Days';
+}
+.categories-block .more:hover {
+  background: #327dc4;
+}
+.categories-img {
+  text-align: center;
+}
+.categories-img .table-block {
+  display: table;
+  width: 100%;
+  height: 200px;
+}
+.categories-img .block-vertical {
+  display: table-cell;
+  vertical-align: middle;
+}
